@@ -176,8 +176,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
-let numList = numArrays.slice(numArrays.length - 1, numArrays.length)
+let numList = numArrays[numArrays.length -1]
 
 console.log('Exercise 13 Result:\n', numList);
 
