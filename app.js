@@ -177,7 +177,7 @@ const numArrays = [
 // Complete Exercise 13 below...
 
 
-let numList = numArrays.pop(numArrays.length)
+let numList = numArrays.slice(numArrays.length - 1, numArrays.length)
 
 console.log('Exercise 13 Result:\n', numList);
 
@@ -199,14 +199,13 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
-let total = [];
+let total = 0;
 
 numArrays.forEach((i) => {
-
-  [i].forEach((j) => {
-    total.push([i][j])
+  i.forEach((j) => {
+    total += j;
     })
-    
 })
+
 
 console.log('Exercise 15 Result:\n', total);
