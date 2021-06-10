@@ -144,17 +144,43 @@ let fizz =[];
 let buzz = [];
 let fizzbuzz = [];
 
+// chained if
+
+// nums.forEach((i) => {
+//   if( i % 3 === 0 ){
+//     fizz.push(i)
+//   } if ( i % 5 === 0 ) {
+//     buzz.push(i)
+//   } if (i % 3 === 0 && i % 5 === 0) {
+//     fizzbuzz.push(i)
+//   } 
+//   }
+// )
+
+// switch version
+
+// nums.forEach((i) => {
+//   switch(i % 3) {
+//     case 0:
+//       fizz.push(i)
+//       switch(i % 5){
+//         case 0:
+//           fizzbuzz.push(i);
+//           break;
+//       } 
+//   } switch(i % 5) {
+//     case 0:
+//       buzz.push(i)
+//       break;
+//   }
+// })
+
 
 nums.forEach((i) => {
-  if( i % 3 === 0 ){
-    fizz.push(i)
-  } if ( i % 5 === 0 ) {
-    buzz.push(i)
-  } if (i % 3 === 0 && i % 5 === 0) {
-    fizzbuzz.push(i)
-  } 
-  }
-)
+  i % 3 === 0 && fizz.push(i);
+  i % 5 === 0 && buzz.push(i);
+  i % 3 === 0 && i % 5 === 0 && fizzbuzz.push(i)
+})
 
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
