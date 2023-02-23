@@ -40,7 +40,7 @@ Exercise 4:
 
 
 
-console.log('Exercise 4 Result:\n', favFood);
+console.log('Exercise 4 Result:\n', typeof favFood !== 'undefined' ? favFood : undefined);
 
 /*
 Exercise 5:
@@ -74,7 +74,7 @@ Exercise 7:
 
 
 
-console.log('Exercise 7 Result:\n', yummy);
+console.log('Exercise 7 Result:\n', typeof yummy !== 'undefined' ? yummy : undefined);
 
 /*
 Exercise 8:
@@ -85,7 +85,7 @@ Exercise 8:
 
 
 
-console.log('Exercise 8 Result:\n', soyIdx);
+console.log('Exercise 8 Result:\n', typeof soyIdx !== 'undefined' ? soyIdx : undefined);
 
 /*
 Exercise 9:
@@ -97,7 +97,7 @@ Exercise 9:
 
 
 
-console.log('Exercise 9 Result:\n', allFoods);
+console.log('Exercise 9 Result:\n', typeof allFoods !== 'undefined' ? allFoods : undefined);
 
 /*
 Exercise 10:
@@ -108,7 +108,7 @@ Exercise 10:
 
 
 
-console.log('Exercise 10 Result:\n', hasSoup);
+console.log('Exercise 10 Result:\n', typeof hasSoup !== 'undefined' ? hasSoup : undefined);
 
 /*
 Exercise 11:
@@ -122,7 +122,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 
 
-console.log('Exercise 11 Result:\n', odds);
+console.log('Exercise 11 Result:\n', typeof odds !== 'undefined' ? odds : undefined);
 
 /*
 Exercise 12:
@@ -137,9 +137,9 @@ Exercise 12:
 
 
 console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+console.log('  fizz:', typeof fizz !== 'undefined' ? fizz : undefined);
+console.log('  buzz:', typeof buzz !== 'undefined' ? buzz : undefined);
+console.log('  fizzbuzz:', typeof fizzbuzz !== 'undefined' ? fizzbuzz : undefined);
 
 /*
 Exercise 13:
@@ -158,7 +158,7 @@ const numArrays = [
 
 
 
-console.log('Exercise 13 Result:\n', numList);
+console.log('Exercise 13 Result:\n', typeof numList !== 'undefined' ? numList : undefined);
 
 /*
 Exercise 14:
@@ -169,7 +169,7 @@ Exercise 14:
 
 
 
-console.log('Exercise 14 Result:\n', num);
+console.log('Exercise 14 Result:\n', typeof num !== 'undefined' ? num : undefined);
 
 /*
 Exercise 15:
@@ -181,4 +181,4 @@ Exercise 15:
 
 
 
-console.log('Exercise 15 Result:\n', total);
+console.log('Exercise 15 Result:\n', typeof total !== 'undefined' ? total : undefined);
