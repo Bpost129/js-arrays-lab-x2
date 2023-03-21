@@ -5,9 +5,9 @@ Exercise 1:
 
 // Exercise 1 has been completed for you...
 
-const foods = [];
+const foods = []
 
-console.log('Exercise 1 Result:\n', foods);
+console.log('Exercise 1 Result:\n', foods)
 
 /*
 Exercise 2:
@@ -18,7 +18,7 @@ Exercise 2:
 
 
 
-console.log('Exercise 2 Result:\n',  foods);
+console.log('Exercise 2 Result:\n',  foods)
 
 /*
 Exercise 3:
@@ -29,7 +29,7 @@ Exercise 3:
 
 
 
-console.log('Exercise 3 Result:\n', foods);
+console.log('Exercise 3 Result:\n', foods)
 
 /*
 Exercise 4:
@@ -40,7 +40,7 @@ Exercise 4:
 
 
 
-console.log('Exercise 4 Result:\n', typeof favFood !== 'undefined' ? favFood : undefined);
+console.log('Exercise 4 Result:\n', typeof favFood !== 'undefined' ? favFood : undefined)
 
 /*
 Exercise 5:
@@ -51,7 +51,7 @@ Exercise 5:
 
 
 
-console.log('Exercise 5 Result:\n', foods);
+console.log('Exercise 5 Result:\n', foods)
 
 /*
 Exercise 6:
@@ -62,7 +62,7 @@ Exercise 6:
 
 
 
-console.log('Exercise 6 Result:\n', foods);
+console.log('Exercise 6 Result:\n', foods)
 
 /*
 Exercise 7:
@@ -74,7 +74,7 @@ Exercise 7:
 
 
 
-console.log('Exercise 7 Result:\n', typeof yummy !== 'undefined' ? yummy : undefined);
+console.log('Exercise 7 Result:\n', typeof yummy !== 'undefined' ? yummy : undefined)
 
 /*
 Exercise 8:
@@ -85,7 +85,7 @@ Exercise 8:
 
 
 
-console.log('Exercise 8 Result:\n', typeof soyIdx !== 'undefined' ? soyIdx : undefined);
+console.log('Exercise 8 Result:\n', typeof soyIdx !== 'undefined' ? soyIdx : undefined)
 
 /*
 Exercise 9:
@@ -97,7 +97,7 @@ Exercise 9:
 
 
 
-console.log('Exercise 9 Result:\n', typeof allFoods !== 'undefined' ? allFoods : undefined);
+console.log('Exercise 9 Result:\n', typeof allFoods !== 'undefined' ? allFoods : undefined)
 
 /*
 Exercise 10:
@@ -108,7 +108,7 @@ Exercise 10:
 
 
 
-console.log('Exercise 10 Result:\n', typeof hasSoup !== 'undefined' ? hasSoup : undefined);
+console.log('Exercise 10 Result:\n', typeof hasSoup !== 'undefined' ? hasSoup : undefined)
 
 /*
 Exercise 11:
@@ -116,13 +116,13 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
 
 // Complete Exercise 11 below...
 
 
 
-console.log('Exercise 11 Result:\n', typeof odds !== 'undefined' ? odds : undefined);
+console.log('Exercise 11 Result:\n', typeof odds !== 'undefined' ? odds : undefined)
 
 /*
 Exercise 12:
@@ -136,10 +136,10 @@ Exercise 12:
 
 
 
-console.log('Exercise 12 Results:');
-console.log('  fizz:', typeof fizz !== 'undefined' ? fizz : undefined);
-console.log('  buzz:', typeof buzz !== 'undefined' ? buzz : undefined);
-console.log('  fizzbuzz:', typeof fizzbuzz !== 'undefined' ? fizzbuzz : undefined);
+console.log('Exercise 12 Results:')
+console.log('  fizz:', typeof fizz !== 'undefined' ? fizz : undefined)
+console.log('  buzz:', typeof buzz !== 'undefined' ? buzz : undefined)
+console.log('  fizzbuzz:', typeof fizzbuzz !== 'undefined' ? fizzbuzz : undefined)
 
 /*
 Exercise 13:
@@ -152,13 +152,13 @@ const numArrays = [
 	[15, 21, 72, 9],
 	[45, 66],
 	[7, 81, 90]
-];
+]
 
 // Complete Exercise 13 below...
 
 
 
-console.log('Exercise 13 Result:\n', typeof numList !== 'undefined' ? numList : undefined);
+console.log('Exercise 13 Result:\n', typeof numList !== 'undefined' ? numList : undefined)
 
 /*
 Exercise 14:
@@ -169,7 +169,7 @@ Exercise 14:
 
 
 
-console.log('Exercise 14 Result:\n', typeof num !== 'undefined' ? num : undefined);
+console.log('Exercise 14 Result:\n', typeof num !== 'undefined' ? num : undefined)
 
 /*
 Exercise 15:
@@ -181,4 +181,4 @@ Exercise 15:
 
 
 
-console.log('Exercise 15 Result:\n', typeof total !== 'undefined' ? total : undefined);
+console.log('Exercise 15 Result:\n', typeof total !== 'undefined' ? total : undefined)
