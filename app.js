@@ -27,7 +27,7 @@ Exercise 3:
 
 // Complete Exercise 3 below...
 
-
+foods.unshift('taco')
 
 console.log('Exercise 3 Result:\n', foods)
 
@@ -38,7 +38,7 @@ Exercise 4:
 
 // Complete Exercise 4 below...
 
-
+let favFood = foods[1]
 
 console.log('Exercise 4 Result:\n', typeof favFood !== 'undefined' ? favFood : undefined)
 
@@ -49,7 +49,7 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-
+foods.splice(2, 0, 'tofu')
 
 console.log('Exercise 5 Result:\n', foods)
 
@@ -60,7 +60,7 @@ Exercise 6:
 
 // Complete Exercise 6 below...
 
-
+foods.splice(1, 1, 'sushi', 'cupcake')
 
 console.log('Exercise 6 Result:\n', foods)
 
@@ -72,7 +72,7 @@ Exercise 7:
 
 // Complete Exercise 7 below...
 
-
+let yummy = foods.slice(1, 3)
 
 console.log('Exercise 7 Result:\n', typeof yummy !== 'undefined' ? yummy : undefined)
 
@@ -83,7 +83,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+let soyIdx = foods.indexOf('tofu')
 
 console.log('Exercise 8 Result:\n', typeof soyIdx !== 'undefined' ? soyIdx : undefined)
 
@@ -95,7 +95,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+let allFoods = foods.join(' -> ')
 
 console.log('Exercise 9 Result:\n', typeof allFoods !== 'undefined' ? allFoods : undefined)
 
@@ -106,7 +106,7 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
-
+let hasSoup = foods.includes('soup')
 
 console.log('Exercise 10 Result:\n', typeof hasSoup !== 'undefined' ? hasSoup : undefined)
 
@@ -120,7 +120,11 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
 
 // Complete Exercise 11 below...
 
+let odds = []
 
+nums.forEach(num => {
+  if (num % 2 !== 0) odds.push(num)
+})
 
 console.log('Exercise 11 Result:\n', typeof odds !== 'undefined' ? odds : undefined)
 
@@ -134,7 +138,19 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+let fizz = [], buzz = [], fizzbuzz = []
 
+nums.forEach(num => {
+  if (num % 3 === 0 && num % 5 === 0) {
+    fizzbuzz.push(num)
+  } 
+  if (num % 3 === 0) {
+    fizz.push(num)
+  } 
+  if (num % 5 === 0) {
+    buzz.push(num)
+  }
+})
 
 console.log('Exercise 12 Results:')
 console.log('  fizz:', typeof fizz !== 'undefined' ? fizz : undefined)
@@ -156,7 +172,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-
+let numList = numArrays[numArrays.length - 1]
 
 console.log('Exercise 13 Result:\n', typeof numList !== 'undefined' ? numList : undefined)
 
